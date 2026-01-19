@@ -1,0 +1,20 @@
+## Styling & Visual Effects
+- [x] Apply deep black background with neon glow effects
+- [x] Implement HUD-style corner brackets and technical lines
+- [x] Add status color indicators (normal/warning) to sensor cards
+- [x] Create animated glow effects for neon text
+- [x] Ensure high contrast for readability
+- [ ] Test responsive design on mobile browsers
+
+## Testing & Validation
+- [ ] Test sensor data updates in real-time
+- [x] Verify rule-based automation decisions (vitest tests pass)
+- [ ] Test manual override functionality
+- [ ] Validate decision log explanations
+- [ ] Test crop selection and planting date configuration
+- [ ] Verify mobile responsiveness on Android/Chrome
+
+## Deployment & Documentation
+- [ ] Create checkpoint for completed system
+- [ ] Document API procedures and decision engine logic
+- [ ] Prepare for academic defense presentation
