@@ -1,0 +1,1532 @@
+[
+  {
+    "name": "Maize",
+    "scientificName": "Zea mays",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.3,
+        "tempMin": 18,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 35,
+        "kc": 0.75,
+        "tempMin": 18,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 40,
+        "kc": 1.2,
+        "tempMin": 18,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.35,
+        "tempMin": 18,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Full Sun"
+  },
+  {
+    "name": "Cassava",
+    "scientificName": "Manihot esculenta",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.3,
+        "tempMin": 20,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 40,
+        "kc": 0.7000000000000001,
+        "tempMin": 20,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 90,
+        "kc": 1.1,
+        "tempMin": 20,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 60,
+        "kc": 0.5,
+        "tempMin": 20,
+        "tempMax": 33,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Common Bean",
+    "scientificName": "Phaseolus vulgaris",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 15,
+        "kc": 0.4,
+        "tempMin": 15,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 25,
+        "kc": 0.7749999999999999,
+        "tempMin": 15,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 25,
+        "kc": 1.15,
+        "tempMin": 15,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 20,
+        "kc": 0.35,
+        "tempMin": 15,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Sweet Potato",
+    "scientificName": "Ipomoea batatas",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.5,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.825,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.15,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 40,
+        "kc": 0.65,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Irish Potato",
+    "scientificName": "Solanum tuberosum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 25,
+        "kc": 0.5,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.825,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 45,
+        "kc": 1.15,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.75,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Sorghum",
+    "scientificName": "Sorghum bicolor",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.3,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.7000000000000001,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 40,
+        "kc": 1.1,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.55,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Rice (Upland)",
+    "scientificName": "Oryza sativa",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 30,
+        "kc": 1.05,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 1.125,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.2,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.7,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Wheat",
+    "scientificName": "Triticum aestivum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.3,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.725,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.15,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 40,
+        "kc": 0.3,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Coffee (Arabica)",
+    "scientificName": "Coffea arabica",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 365,
+        "kc": 0.9,
+        "tempMin": 18,
+        "tempMax": 24,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 0,
+        "kc": 0.925,
+        "tempMin": 18,
+        "tempMax": 24,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 0,
+        "kc": 0.95,
+        "tempMin": 18,
+        "tempMax": 24,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 0,
+        "kc": 0.95,
+        "tempMin": 18,
+        "tempMax": 24,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Partial Shade"
+  },
+  {
+    "name": "Tea",
+    "scientificName": "Camellia sinensis",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 365,
+        "kc": 0.95,
+        "tempMin": 13,
+        "tempMax": 30,
+        "humidityMin": 80,
+        "humidityMax": 95,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 0,
+        "kc": 0.975,
+        "tempMin": 13,
+        "tempMax": 30,
+        "humidityMin": 80,
+        "humidityMax": 95,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 0,
+        "kc": 1.0,
+        "tempMin": 13,
+        "tempMax": 30,
+        "humidityMin": 80,
+        "humidityMax": 95,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 0,
+        "kc": 1.0,
+        "tempMin": 13,
+        "tempMax": 30,
+        "humidityMin": 80,
+        "humidityMax": 95,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Partial Shade"
+  },
+  {
+    "name": "Tomato",
+    "scientificName": "Solanum lycopersicum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 30,
+        "kc": 0.6,
+        "tempMin": 18,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 40,
+        "kc": 0.875,
+        "tempMin": 18,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 45,
+        "kc": 1.15,
+        "tempMin": 18,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.8,
+        "tempMin": 18,
+        "tempMax": 27,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Onion",
+    "scientificName": "Allium cepa",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.7,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 35,
+        "kc": 0.875,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 70,
+        "kc": 1.05,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 20,
+        "kc": 0.75,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Banana",
+    "scientificName": "Musa spp.",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 120,
+        "kc": 0.5,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 90,
+        "kc": 0.8,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 120,
+        "kc": 1.1,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 60,
+        "kc": 1.0,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Soybean",
+    "scientificName": "Glycine max",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.4,
+        "tempMin": 15,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.7749999999999999,
+        "tempMin": 15,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.15,
+        "tempMin": 15,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 25,
+        "kc": 0.5,
+        "tempMin": 15,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 25,
+        "kc": 0.35,
+        "tempMin": 18,
+        "tempMax": 30,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 35,
+        "kc": 0.7250000000000001,
+        "tempMin": 18,
+        "tempMax": 30,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 45,
+        "kc": 1.1,
+        "tempMin": 18,
+        "tempMax": 30,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 25,
+        "kc": 0.35,
+        "tempMin": 18,
+        "tempMax": 30,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Cabbage",
+    "scientificName": "Brassica oleracea",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 40,
+        "kc": 0.7,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 60,
+        "kc": 0.875,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 50,
+        "kc": 1.05,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.95,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Pea",
+    "scientificName": "Pisum sativum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.5,
+        "tempMin": 10,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.825,
+        "tempMin": 10,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 35,
+        "kc": 1.15,
+        "tempMin": 10,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 15,
+        "kc": 1.1,
+        "tempMin": 10,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Groundnut",
+    "scientificName": "Arachis hypogaea",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 35,
+        "kc": 0.4,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 45,
+        "kc": 0.7749999999999999,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 35,
+        "kc": 1.15,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 25,
+        "kc": 0.6,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Mango",
+    "scientificName": "Mangifera indica",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 365,
+        "kc": 0.8,
+        "tempMin": 24,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 0,
+        "kc": 0.825,
+        "tempMin": 24,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 0,
+        "kc": 0.85,
+        "tempMin": 24,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 0,
+        "kc": 0.85,
+        "tempMin": 24,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Avocado",
+    "scientificName": "Persea americana",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 365,
+        "kc": 0.6,
+        "tempMin": 20,
+        "tempMax": 28,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 0,
+        "kc": 0.725,
+        "tempMin": 20,
+        "tempMax": 28,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 0,
+        "kc": 0.85,
+        "tempMin": 20,
+        "tempMax": 28,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 0,
+        "kc": 0.75,
+        "tempMin": 20,
+        "tempMax": 28,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Pineapple",
+    "scientificName": "Ananas comosus",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 60,
+        "kc": 0.5,
+        "tempMin": 22,
+        "tempMax": 32,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 450,
+        "kc": 0.4,
+        "tempMin": 22,
+        "tempMax": 32,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 30,
+        "kc": 0.3,
+        "tempMin": 22,
+        "tempMax": 32,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 60,
+        "kc": 0.3,
+        "tempMin": 22,
+        "tempMax": 32,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Passion Fruit",
+    "scientificName": "Passiflora edulis",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 365,
+        "kc": 0.4,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 0,
+        "kc": 0.625,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 0,
+        "kc": 0.85,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 0,
+        "kc": 0.85,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Citrus (Orange)",
+    "scientificName": "Citrus sinensis",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 365,
+        "kc": 0.7,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 0,
+        "kc": 0.675,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 0,
+        "kc": 0.65,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 0,
+        "kc": 0.7,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 50,
+        "humidityMax": 80,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Sugarcane",
+    "scientificName": "Saccharum officinarum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 30,
+        "kc": 0.4,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 60,
+        "kc": 0.825,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 180,
+        "kc": 1.25,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 90,
+        "kc": 0.75,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 70,
+        "humidityMax": 90,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Tobacco",
+    "scientificName": "Nicotiana tabacum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.5,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.825,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 40,
+        "kc": 1.15,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.8,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Cotton",
+    "scientificName": "Gossypium hirsutum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 30,
+        "kc": 0.35,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 50,
+        "kc": 0.7749999999999999,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.2,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 40,
+        "kc": 0.6,
+        "tempMin": 20,
+        "tempMax": 30,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Barley",
+    "scientificName": "Hordeum vulgare",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.3,
+        "tempMin": 10,
+        "tempMax": 25,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.725,
+        "tempMin": 10,
+        "tempMax": 25,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.15,
+        "tempMin": 10,
+        "tempMax": 25,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 40,
+        "kc": 0.25,
+        "tempMin": 10,
+        "tempMax": 25,
+        "humidityMin": 30,
+        "humidityMax": 50,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Millet (Pearl)",
+    "scientificName": "Pennisetum glaucum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.3,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 20,
+        "humidityMax": 40,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.65,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 20,
+        "humidityMax": 40,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 40,
+        "kc": 1.0,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 20,
+        "humidityMax": 40,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 30,
+        "kc": 0.3,
+        "tempMin": 20,
+        "tempMax": 35,
+        "humidityMin": 20,
+        "humidityMax": 40,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Carrot",
+    "scientificName": "Daucus carota",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.7,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.875,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 30,
+        "kc": 1.05,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 20,
+        "kc": 0.95,
+        "tempMin": 15,
+        "tempMax": 20,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  },
+  {
+    "name": "Garlic",
+    "scientificName": "Allium sativum",
+    "stages": [
+      {
+        "name": "Initial",
+        "duration": 20,
+        "kc": 0.7,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Development",
+        "duration": 30,
+        "kc": 0.875,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 50,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Mid",
+        "duration": 60,
+        "kc": 1.05,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 60,
+        "soilMoistureMax": 100
+      },
+      {
+        "name": "Late",
+        "duration": 20,
+        "kc": 0.7,
+        "tempMin": 15,
+        "tempMax": 25,
+        "humidityMin": 40,
+        "humidityMax": 70,
+        "soilMoistureMin": 40,
+        "soilMoistureMax": 80
+      }
+    ],
+    "light": "Bright"
+  }
+]

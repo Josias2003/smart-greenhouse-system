@@ -3,16 +3,19 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import Dashboard from "@/pages/Dashboard";
 import Settings from "@/pages/Settings";
+import Analytics from "@/pages/Analytics";
+import Greenhouses from "@/pages/Greenhouses";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
-      <Route path={"/?"} component={Dashboard} />
+      <Route path={"/"} component={Dashboard} />
+      <Route path={"/analytics"} component={Analytics} />
+      <Route path={"/greenhouses"} component={Greenhouses} />
       <Route path={"/settings"} component={Settings} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

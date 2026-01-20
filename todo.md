@@ -47,3 +47,72 @@
 - [ ] Create checkpoint for completed system
 - [ ] Document API procedures and decision engine logic
 - [ ] Prepare for academic defense presentation
+
+
+## ESP32 Hardware Integration
+- [ ] Design ESP32 wiring diagram (DHT22, soil moisture sensor, light sensor, relay modules)
+- [ ] Create ESP32 firmware sketch for sensor reading and data transmission
+- [ ] Implement MQTT or HTTP API endpoint for sensor data ingestion
+- [ ] Add device registration and authentication for ESP32
+- [ ] Create test harness for simulating ESP32 sensor data
+- [ ] Document ESP32 setup and calibration procedures
+
+## Advanced Analytics & Charts
+- [ ] Add historical sensor data queries (hourly, daily, weekly aggregates)
+- [ ] Create analytics page with Recharts visualizations
+- [ ] Implement temperature trend chart (line chart with min/max/avg)
+- [ ] Implement humidity trend chart
+- [ ] Implement soil moisture trend chart
+- [ ] Add light level trend chart
+- [ ] Create decision frequency analysis chart
+- [ ] Add date range picker for analytics filtering
+- [ ] Implement anomaly detection alerts
+- [ ] Create weekly/monthly summary statistics
+
+## Multi-Greenhouse Support
+- [ ] Extend database schema to support multiple greenhouses per user
+- [ ] Create greenhouse selector/switcher UI component
+- [ ] Implement greenhouse list and management page
+- [ ] Add ability to create new greenhouses
+- [ ] Add greenhouse naming and configuration
+- [ ] Implement comparative analytics (compare multiple greenhouses)
+- [ ] Add greenhouse-specific settings and preferences
+- [ ] Create greenhouse deletion/archival functionality
+- [ ] Add greenhouse sharing permissions (optional)
+- [ ] Implement greenhouse dashboard switching
+
+
+## ESP32 Hardware Integration (COMPLETED)
+- [x] Design ESP32 wiring diagram (DHT22, soil moisture sensor, light sensor, relay modules)
+- [x] Create ESP32 firmware sketch for sensor reading and data transmission
+- [x] Implement MQTT or HTTP API endpoint for sensor data ingestion
+- [x] Add device registration and authentication for ESP32
+- [x] Create test harness for simulating ESP32 sensor data
+- [x] Document ESP32 setup and calibration procedures
+
+## Advanced Analytics & Charts (COMPLETED)
+- [x] Add historical sensor data queries (hourly, daily, weekly aggregates)
+- [x] Create analytics page with Recharts visualizations
+- [x] Implement temperature trend chart (line chart with min/max/avg)
+- [x] Implement humidity trend chart
+- [x] Implement soil moisture trend chart
+- [x] Add light level trend chart
+- [x] Create decision frequency analysis chart
+- [x] Add date range picker for analytics filtering (24h, 7d, 30d)
+- [x] Create weekly/monthly summary statistics
+
+## Multi-Greenhouse Support (IN PROGRESS)
+- [x] Create greenhouses management page
+- [x] Implement greenhouse selector/switcher UI component
+- [x] Add ability to view multiple greenhouses
+- [ ] Implement greenhouse creation via API
+- [ ] Add greenhouse deletion/archival functionality
+- [ ] Implement comparative analytics (compare multiple greenhouses)
+- [ ] Add greenhouse-specific settings and preferences
+- [ ] Add greenhouse sharing permissions (optional)
+
+## Rwanda Crop Database Integration (COMPLETED)
+- [x] Process Rwanda comprehensive crop CSV (30 crops)
+- [x] Add all 30 Rwanda crops to database
+- [x] Verify crop parameters and growth stages
+- [x] Test decision engine with Rwanda crops
