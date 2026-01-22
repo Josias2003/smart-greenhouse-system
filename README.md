@@ -2,15 +2,15 @@
 
 A mobile-first, cloud-enabled smart agriculture dashboard for real-time greenhouse monitoring and automated crop management. Built with React 19, tRPC, Express, and a cyberpunk aesthetic optimized for Android/Chrome browsers.
 
-## 🌾 Overview
+## Overview
 
 This system provides comprehensive monitoring and control of greenhouse environments with real-time sensor data from ESP32 microcontrollers, rule-based automation that applies crop-specific growth stage logic, multi-greenhouse management with comparative analytics, and 30 Rwanda crops with comprehensive agronomic parameters. The system includes manual override controls for emergency situations, decision logging with explainable reasoning, and advanced analytics with historical trends and statistics.
 
-## 🎨 Design
+## Design
 
 The interface features a high-contrast cyberpunk aesthetic with a deep black background, vibrant neon pink (#EC4899) and electric cyan (#00FFFF) typography, intense outer glow effects simulating neon signage, HUD-style elements with corner brackets and technical lines, and mobile-responsive design optimized for smartphones.
 
-## 📋 Features
+## Features
 
 ### Core Dashboard
 The main dashboard displays a 2×2 sensor grid showing temperature, humidity, soil moisture, and light level with status indicators. The crop information card shows the selected crop name, scientific name, current growth stage, and days since planting. Real-time actuator status indicators display ON/OFF states for pump, fan, and light. A system mode toggle allows switching between AUTO (rule-based) and MANUAL (manual control) modes with visual warnings. The decision log shows the last 10 timestamped actions with human-readable explanations.
@@ -24,7 +24,7 @@ The greenhouses page allows viewing and switching between multiple greenhouses. 
 ### Settings & Configuration
 Users can select from 30 Rwanda crops with detailed agronomic parameters, set the planting date to calculate growth stage, and reset the system to clear data and reconfigure.
 
-## 🚀 Technology Stack
+## Technology Stack
 
 ### Frontend
 React 19 for the UI framework, Tailwind CSS 4 for utility-first styling with OKLCH color format, Recharts for data visualization, shadcn/ui for accessible components, Wouter for lightweight routing, and Vite for fast builds.
@@ -35,7 +35,7 @@ Express 4 for the HTTP server, tRPC 11 for end-to-end typesafe APIs, Drizzle ORM
 ### Testing & Quality
 Vitest for unit testing, TypeScript for static type checking, and ESLint & Prettier for code quality and formatting.
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 smart-greenhouse-system/
@@ -65,7 +65,7 @@ smart-greenhouse-system/
 └── README.md                 # This file
 ```
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 Node.js 22+, pnpm 10+, MySQL 8+ or TiDB, and optionally an ESP32 microcontroller for hardware integration.
@@ -99,7 +99,7 @@ Node.js 22+, pnpm 10+, MySQL 8+ or TiDB, and optionally an ESP32 microcontroller
 
 The server runs on `http://localhost:3000`
 
-## 📱 ESP32 Hardware Integration
+## ESP32 Hardware Integration
 
 ### Wiring Diagram
 
@@ -120,19 +120,19 @@ ESP32 DevKit, DHT22 temperature/humidity sensor, capacitive soil moisture sensor
 
 The ESP32 sends sensor data via HTTP POST to `/api/trpc/esp32.ingestSensorData` with temperature, humidity, soil moisture, light level, and timestamp. The system responds with actuator commands.
 
-## 🌾 Crop Database
+## Crop Database
 
 The system includes 30 Rwanda crops with comprehensive parameters including temperature ranges, humidity requirements, soil moisture targets, light requirements, Kc coefficients for irrigation, and growth stage durations. Crops include Maize, Cassava, Tomato, Coffee, Tea, Banana, Beans, Potato, Avocado, Citrus, and 20 additional crops.
 
 Each crop has temperature thresholds for optimal growth, humidity requirements for each growth stage, soil moisture targets (minimum and maximum), light requirements (lux levels), Kc coefficients for irrigation calculations, and growth stage durations (days).
 
-## 🤖 Decision Engine
+## Decision Engine
 
 The rule-based automation engine applies crop-specific logic by calculating the growth stage based on days since planting, evaluating sensor data against stage-specific thresholds, applying rules to determine actuator actions, logging decisions with reasoning, and executing actions in AUTO mode or logging only in MANUAL mode.
 
 Example decision logic: IF growth_stage == "Flowering" AND humidity < 60% THEN activate fan to increase air circulation and humidity.
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Greenhouse Management
 `greenhouse.getOrCreate`, `greenhouse.updateMode`, `greenhouse.setCrop`
@@ -149,30 +149,27 @@ Example decision logic: IF growth_stage == "Flowering" AND humidity < 60% THEN a
 ### Crops
 `crop.list`
 
-## 🧪 Testing
+## Testing
 
 Run all tests with `pnpm test`. Test files include decision engine tests (15 tests), ESP32 router tests (11 tests), and authentication tests (1 test). All 27 tests pass with zero TypeScript errors.
 
-## 🚀 Deployment
+## Deployment
 
 Build for production with `pnpm build` and start the production server with `pnpm start`. Ensure all required environment variables are set including DATABASE_URL, JWT_SECRET, NODE_ENV=production, and OAuth credentials.
 
-## 📖 Documentation
+## Documentation
 
 See `ESP32_WIRING_GUIDE.md` for hardware setup, `server/routers.ts` for API reference, `drizzle/schema.ts` for database schema, and `server/decisionEngine.ts` for automation logic.
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 Real-time WebSocket updates for live sensor streaming, predictive alerts with anomaly detection, multi-user collaboration with greenhouse sharing, native mobile apps, weather integration, historical data exports, advanced analytics with machine learning, and integration with IoT platforms like AWS IoT and Azure IoT Hub.
 
-## 📝 License
+## License
 
 MIT License
 
-## 👥 Support
+## Support
 
-For issues, questions, or feature requests, please open an issue on the project repository.
+For issues, questions, or feature requests, reachout josiaszacharie@gmail.com.
 
----
-
-**Built with ❤️ for sustainable agriculture**
